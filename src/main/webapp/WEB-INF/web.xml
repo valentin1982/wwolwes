@@ -6,9 +6,7 @@
 metadata-complete="true"
 >
 
-
     <!--DispatcherServlet здесь указывать не нужно - он настраивается автоматически с помощью Spring Boot-->
-
 
 
     <servlet>
@@ -36,6 +34,10 @@ metadata-complete="true"
         <param-name>javax.faces.DATETIMECONVERTER_DEFAULT_TIMEZONE_IS_SYSTEM_TIMEZONE</param-name>
         <param-value>true</param-value>
     </context-param>
+
+    <!--<listener>-->
+        <!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
+    <!--</listener>-->
 
 
 
